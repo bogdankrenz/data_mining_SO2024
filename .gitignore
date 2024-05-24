@@ -95,3 +95,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# test_png from test_setup.py
+test_plot.png
