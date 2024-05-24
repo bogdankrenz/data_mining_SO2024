@@ -34,6 +34,7 @@ python src/test_setup.py
 python3 src/test_setup.py
 ```
 Dieses Skript überprüft die Installation von NumPy, Pandas und Matplotlib und erstellt einen einfachen Plot mit dem Namen test_plot.png.
+
 2. Öffne das Jupyter Notebook, um die Integration zu überprüfen:
 ```
 jupyter notebook notebooks/test_notebook.ipynb
