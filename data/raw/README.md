@@ -6,6 +6,18 @@
 
 ## GDP
 
+| Field                  | Dtype  | Field Description                              | Redundant |
+| ---------------------- | ------ | ---------------------------------------------- | :-------: |
+| FIPS                   | int    | FIPS codef or state & county                   |     N     |
+| GeoName                | object | Name of State or County                        |     Y     |
+| Region                 | object |                                                |           |
+| TableName              | object | Irrelevant (only ever "CAGDP9")                |     Y     |
+| LineCode               | int    |                                                |           |
+| IndustryClassification | object | Industry identification code                   |     N     |
+| Description            | object | NAICS description                              |     Y     |
+| Unit                   | object | Unit of GDP (only "Thousands of 2017 dollars") |     Y     |
+| 2017 - 2022            | float  | Value of GDP in x Year                         |     N     |
+
 ## NAICS Occupation
 
 | Field                  | Dtype  | Field Description                        | Redundant |
@@ -46,7 +58,7 @@
 | n1000_2      | object | Number of establishments: 1500 - 2499 Employees  |     N     |
 | n1000_3      | object | Number of establishments: 2500 - 4999 Employees  |     N     |
 | n1000_4      | object | Number of establishments: 5000 or more Employees |     N     |
-| \*\_nf       | object | Noise flag fields                                |     N     |
+| x_nf         | object | Noise flag fields                                |     N     |
 
 Maybe we should think of a way to squash the n fields if we want to use them for our project.
 
