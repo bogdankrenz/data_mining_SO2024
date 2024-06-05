@@ -1,9 +1,5 @@
 # Data Description
 
-## Emp
-
-## Exchange Rates
-
 ## GDP
 
 | Field                  | Dtype  | Field Description                              | Redundant |
@@ -60,8 +56,4 @@
 | n1000_4      | object | Number of establishments: 5000 or more Employees |     N     |
 | x_nf         | object | Noise flag fields                                |     N     |
 
-Maybe we should think of a way to squash the n fields if we want to use them for our project.
-
-## Production Index
-
-## Wages
+Maybe we should think of a way to squash the _n_ fields if we want to use them for our project.
