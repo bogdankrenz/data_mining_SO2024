@@ -1,6 +1,8 @@
-# Deciding Top 5 Industries
+# Deciding Top 5 Industries/Jobs
 
-## Collect NAICS From Top 5 Sets
+## NAICS / Industries
+
+### Collect NAICS From Top 5 Sets
 
 | NAICS           | Picked | Description                                        |
 | --------------- | :----: | -------------------------------------------------- |
@@ -20,13 +22,13 @@
 | 311-316,322-326 |        | Nondurable goods manufacturing                     |
 | 3241            |        | Petroleum and Coal Products Manufacturing          |
 
-## Reasoning
+### Reasoning
 
-### Durable Goods Manufacturing
+#### Durable Goods Manufacturing
 
 - Third in GDP at minimum
 
-#### 3311
+##### 3311
 
 - Second highest employee per establishments count
 - Tenth highest pay per person
@@ -35,7 +37,7 @@ Why Rüggeberg-Tools:
 
 Forging metals
 
-#### 3330A1
+##### 3330A1
 
 - Fourth highest employee count
 - Low payed workers
@@ -44,7 +46,7 @@ Why Rüggeberg-Tools:
 
 Building machines
 
-#### 3361
+##### 3361
 
 - Highest employee per establishments count
 - Second highest pay per person
@@ -54,7 +56,7 @@ Why Rüggeberg-Tools:
 A little "maybe" as they put the parts together, but they could make use of
 the tools
 
-#### 3363
+##### 3363
 
 - Fifth highest in employee count
 - Sixth highest in employee per establishments count
@@ -64,11 +66,11 @@ Why Rüggeberg-Tools:
 
 Construct car parts out of metal
 
-### Constructions
+#### Constructions
 
 - Eight highest GDP
 
-#### 2381
+##### 2381
 
 - Second highest employee count
 
@@ -76,4 +78,26 @@ Why Rüggeberg-Tools:
 
 Tools should also translate their usage into wood-/stoneworking, which is
 needed in foundation and frame building
+
+## Occupations
+
+### Just by employment numbers
+
+51-4121 Welders, Cutters, Solderers, and Brazers
+51-4031 Cutting, Punching, and Press Machine Setters ...
+51-4041 Machinists
+49-9071 Maintenance and Repair Workers, General
+51-2031 Engine and Other Machine Assemblers
+
+### Other
+
+Theoretically we can extract
+
+- employment raise
+- mean wages
+- wage raise
+
+from [https://www.bls.gov]
+
+But I don't think it's expected in the scope of this project
 
