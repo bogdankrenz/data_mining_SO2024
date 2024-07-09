@@ -11,13 +11,14 @@
 | \               |        | \                                                  |
 | 22              |        | Constructions                                      |
 | 2362            |        | Nonresidential Building Construction               |
-| 2381            |   !    | Foundation, Structure, and Building Exterior Contr |
+| 2381            |        | Foundation, Structure, and Building Exterior Contr |
 | \               |        | \                                                  |
 | 321,327-339     |        | Durable goods manufacturing                        |
-| 3311            |   !    | Iron and Steel Mills and Ferroalloy Manufacturing  |
-| 3330A1          |   !    | Machinery Manufacturing                            |
-| 3361            |   !    | Motor Vehicle Manufacturing                        |
-| 3363            |   !    | Motor Vehicle Parts Manufacturing                  |
+| 3311            |   2    | Iron and Steel Mills and Ferroalloy Manufacturing  |
+| 3330A1          |   5    | Machinery Manufacturing                            |
+| 3361            |   1    | Motor Vehicle Manufacturing                        |
+| 3363            |   4    | Motor Vehicle Parts Manufacturing                  |
+| 3364            |   3    | Aerospace Product and Parts Manufacturing          |
 | \               |        | \                                                  |
 | 311-316,322-326 |        | Nondurable goods manufacturing                     |
 | 3241            |        | Petroleum and Coal Products Manufacturing          |
@@ -66,18 +67,16 @@ Why Rüggeberg-Tools:
 
 Construct car parts out of metal
 
-#### Constructions
+##### 3364
 
-- Eight highest GDP
-
-##### 2381
-
-- Second highest employee count
+- High employment
+- High employment per est
+- High pay
+- High pay per emp
 
 Why Rüggeberg-Tools:
 
-Tools should also translate their usage into wood-/stoneworking, which is
-needed in foundation and frame building
+High quality tools for "security" of aero building
 
 ## Occupations
 
