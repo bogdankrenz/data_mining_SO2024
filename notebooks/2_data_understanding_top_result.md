@@ -9,7 +9,7 @@
 | 22              |        | Utilities                                          |
 | 2212            |        | Natural Gas Distribution                           |
 | \               |        | \                                                  |
-| 22              |        | Constructions                                      |
+| 23              |        | Constructions                                      |
 | 2362            |        | Nonresidential Building Construction               |
 | 2381            |        | Foundation, Structure, and Building Exterior Contr |
 | \               |        | \                                                  |
